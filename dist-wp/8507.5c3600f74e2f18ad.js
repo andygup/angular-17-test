@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkangular_17_test=self.webpackChunkangular_17_test||[]).push([[8507],{18507:(c,n,t)=>{t.r(n),t.d(n,{CalciteAction:()=>s,defineCustomElement:()=>a});var e=t(35782);const s=e.A,a=e.d}}]);
