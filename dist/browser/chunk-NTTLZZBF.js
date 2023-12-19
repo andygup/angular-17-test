@@ -1,0 +1,1 @@
+import{a as r}from"./chunk-FBKJMXRD.js";import{g as n}from"./chunk-RIZAJ3RX.js";var s=new Set,e,c={childList:!0};function f(o){e||(e=r("mutation",i)),e.observe(o.el,c)}function l(o){s.delete(o.el),i(e.takeRecords()),e.disconnect();for(let[t]of s.entries())e.observe(t,c)}function i(o){o.forEach(({target:t})=>{n(t)})}export{f as a,l as b};

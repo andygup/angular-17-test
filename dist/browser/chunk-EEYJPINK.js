@@ -1,0 +1,1 @@
+var o=new Float32Array(1),i=new Uint32Array(o.buffer);function a(n){return[255&n,(65280&n)>>>8,(16711680&n)>>>16,(4278190080&n)>>>24]}function e(n,t){return 65535&n|t<<16}function f(n,t,u,r){return 255&n|(255&t)<<8|(255&u)<<16|r<<24}export{a,e as b,f as c};

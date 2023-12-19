@@ -1,0 +1,1 @@
+function m(i,l,u,r){let a=null,t=1e3;typeof l=="number"?(t=l,r=u):(a=l??null,t=u);let n,e=0,p=()=>{e=0,i.apply(r,n)},o=(...c)=>{a&&a.apply(r,c),n=c,t?e||(e=setTimeout(p,t)):p()};return o.remove=()=>{e&&(clearTimeout(e),e=0)},o.forceUpdate=()=>{e&&(clearTimeout(e),p())},o.hasPendingUpdates=()=>!!e,o}export{m as a};

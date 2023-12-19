@@ -1,0 +1,1 @@
+import{j as r}from"./chunk-IAMDMFZ7.js";var l=class{constructor(){this.spans=[]}acquire(s){this.lodInfo=s}release(){this.lodInfo=null,this.spans.length=0}forEach(s,e){let{spans:n,lodInfo:t}=this,{level:a}=t;if(n.length!==0)for(let{row:c,colFrom:f,colTo:i}of n)for(let o=f;o<=i;o++)s.call(e,a,c,t.normalizeCol(o),t.getWorldForColumn(o))}};l.pool=new r(l);export{l as a};
